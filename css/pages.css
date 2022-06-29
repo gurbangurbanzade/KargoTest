@@ -473,6 +473,10 @@ select:required:invalid {
   text-align: center;
   color: #405982;
 }
+.getSpecialQuantity1::placeholder {
+  text-align: center;
+  color: #405982;
+}
 .getSpecialText3 {
   font-weight: 500;
   font-size: 14px;
