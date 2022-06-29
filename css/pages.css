@@ -675,3 +675,103 @@ table {
 }
 
 /* End Profile */
+
+/* Bulk Order */
+.bulkOrderText {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #405982;
+}
+
+.bulkOrderTextLink {
+  color: #68d7fa;
+}
+.bulkOrderBtnUp {
+  background: #68d7fa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.bulkOrderBtnUp:hover {
+  background-color: #6ad4f4;
+  border: none;
+  color: #ffffff;
+}
+.bulkOrderDownHeaderText {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #405982;
+}
+.bulkIcon {
+  width: 100px;
+  height: 100px;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  color: #68d7fa;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
+.btn-file1 {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  background: #68d7fa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.btn-file1 input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
+.bulkOrderText2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #405982;
+}
+.btnBulk {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  padding: 10px 20px;
+}
+/* End Bulk Order */
