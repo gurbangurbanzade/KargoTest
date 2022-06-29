@@ -1,49 +1,24 @@
-// function view(e) {
-//   console.log("sasa" + e.path.id);
-//   let menuArr = [1, 2, 3, 4, 5];
-//   for (let item of e.path) {
-//     let a = item.id[4];
-//     console.log(a);
-//     for (let number of menuArr) {
-//       if (a == number) {
-//         console.log(number);
-//         let viewMenu = document.getElementById(`${number}`);
-//         console.log(viewMenu);
-//         viewMenu.classList.remove("displayNone");
-//       } else {
-//         console.log(number);
-//         let viewMenu = document.getElementById(`${number}`);
-//         console.log(viewMenu.classList);
-//         viewMenu.classList.add("displayNone");
-//       }
-//     }
-//   }
-// }
-
 function view(e) {
-  //   console.log(e.target.id[4]);
+  let line = document.querySelector(".downLine");
+  let arr = ["#d1", "#d2", "#d3", "#d4", "#d5"];
+  console.log(line.style.top);
   //   console.log(typeof parseInt(e.target.id[4]));
   let viewMenu = document.getElementById(`${e.target.id[4]}`);
   viewMenu.classList.remove("displayNone");
   let elementClass = Object.values(viewMenu.classList);
 
   let elements = document.querySelector(".tabMenuItems").children;
-  console.log(elements);
+  // console.log(elements);
   for (let i = 0; i <= elements.length; i++) {
-    if (i !== parseInt(e.target.id[4])) {
+    // console.log(elements[i]);
+    if (i + 1 !== parseInt(e.target.id[4])) {
       elements[i].classList.add("displayNone");
-      console.log(elements[i]);
+      // document.querySelector(`${arr[i]}`).style.display = "none";
+      console.log(document.querySelector(${arr[i]}));
     } else {
       elements[i].classList.remove("displayNone");
-    }
-  }
-
-  function displeyHide() {
-    let elements = document.querySelector(".tabMenuItems").children;
-    console.log(elements);
-    for (let i = 0; i <= elements.length; i++) {
-      elements[i].classList.add("displayNone");
-      console.log(elements[i].classList);
+      document.querySelector(`${arr[i]}`).style.display = "block";
+      console.log(document.querySelector(`${arr[i]}`));
     }
   }
 }
