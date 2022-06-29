@@ -289,8 +289,8 @@ select:required:invalid {
   justify-content: center;
 }
 .iconSize {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 .form-check-input {
   border: 1px solid #21e7c3;
@@ -389,6 +389,9 @@ select:required:invalid {
   .productText {
     font-size: 14px !important;
   }
+  .profileHeader {
+    padding: 0px 0px;
+  }
 }
 /* End Amazon FBA */
 
@@ -480,3 +483,71 @@ select:required:invalid {
   position: absolute;
 }
 /* End Get Special Offer 1 */
+/* Profile */
+.displayNone {
+  display: none;
+}
+.profileTabMenu {
+  border: none;
+  background-color: white;
+}
+/* My Profile */
+.profileHeader {
+  padding: 0px 70px;
+}
+/* End My Profile */
+
+/* Change Password */
+.profileText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #405982;
+  margin-bottom: 0px;
+}
+.profileIconBox {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderBottomSelect {
+  border-bottom: 3px solid #3b69e4;
+}
+.profileText1 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #405982;
+  margin-bottom: 0px;
+}
+.profilText2 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #405982;
+}
+.profilPassworBtn {
+  background: #21e7c3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+.profilPassworBtn:hover {
+  background-color: #2cfcd6;
+}
+/* End Change Password */
+/*  */
+
+@media (max-width: 1024px) {
+  .profileHeader {
+    padding: 0px 10px;
+  }
+}
+
+/* End Profile */
