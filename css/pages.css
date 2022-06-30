@@ -622,7 +622,10 @@ table {
 #menu2,
 #menu3,
 #menu4,
-#menu5 {
+#menu5,
+#menu6,
+#menu7,
+#menu8 {
   position: relative;
 }
 .downLine {
@@ -804,3 +807,58 @@ table {
   padding: 10px 20px;
 }
 /* End Bulk Order */
+/* Frequently */
+.downLinef {
+  border-radius: 5px;
+  background: #3b69e4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  width: 106px;
+  height: 3px;
+  position: absolute;
+  left: 28px;
+  top: 40px;
+}
+
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8 {
+  display: none;
+}
+.frequentlyBtn {
+  background: #18bdf6;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+.frequentlyBtn:hover {
+  background: #01aee7;
+}
+.accordion-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3b69e4;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+.accordion-button:focus {
+  border-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+}
+.accordion-body {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #405982;
+}
+/* End Frequently */
