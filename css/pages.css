@@ -678,6 +678,7 @@ table {
   font-size: 17px;
   line-height: 20px;
   color: #405982;
+  margin-bottom: 0px;
 }
 .profilPassworBtn {
   background: #21e7c3;
@@ -696,7 +697,7 @@ table {
 /* End Change Password */
 /*  */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .profileHeader {
     padding: 0px 10px;
   }
