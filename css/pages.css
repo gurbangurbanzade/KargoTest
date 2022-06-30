@@ -861,4 +861,51 @@ table {
   line-height: 16px;
   color: #405982;
 }
+/* Accordion */
+
+button.accordion {
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3b69e4;
+  font-weight: 500;
+}
+
+button.accordion:after {
+  font-family: FontAwesome;
+  content: "\f107";
+  font-family: "fontawesome";
+  font-size: 18px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "\f106";
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0px 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #405982;
+}
+/* End Accordion */
+
 /* End Frequently */
