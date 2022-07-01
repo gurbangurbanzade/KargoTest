@@ -1207,3 +1207,38 @@ button.accordion.is-open:after {
 }
 
 /* End Cargo Companies */
+/* Site usage */
+.siteBtn {
+  background: #5e77f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
+
+/* Video Shadow */
+.o-video {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 56.25%; /* 9 / 16 * 100 */
+}
+.o-video > iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.videoShadow {
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.692);
+}
+/* End Video Shadow */
+/* End Site usage */
