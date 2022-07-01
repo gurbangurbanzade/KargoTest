@@ -1220,6 +1220,12 @@ button.accordion.is-open:after {
   color: #ffffff;
   border: none;
 }
+.siteUsageText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3b69e4;
+}
 
 /* Video Shadow */
 .o-video {
