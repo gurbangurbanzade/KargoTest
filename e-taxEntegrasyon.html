@@ -369,7 +369,7 @@
           <!-- -------------------------------------------------------------->
           <!-- Section is here -->
           <section>
-            <div class="bg-white container pt-4 rounded shadowBox">
+            <div class="bg-white container pt-4 rounded shadowBox taxPageOne">
               <div class="d-flex align-items-center mb-5">
                 <div class="iconBG me-3">
                   <img src="img/svg2/e-tax/createInvoices.svg" alt="" />
@@ -426,7 +426,45 @@
                 />
               </div>
               <div class="text-end">
-                <button class="taxBtn mb-5">Create Invoices</button>
+                <button class="taxBtn mb-5" onclick="taxCreate()">
+                  Create Invoices
+                </button>
+              </div>
+            </div>
+            <div class="bg-white container pt-4 rounded shadowBox taxPageTwo">
+              <div class="d-flex align-items-center mb-5">
+                <div class="iconBG me-3">
+                  <img src="img/svg2/e-tax/createInvoices.svg" alt="" />
+                </div>
+                <span class="taxText"> Create Invoices </span>
+              </div>
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                  <div class="d-flex justify-content-start align-items-end">
+                    <button class="taxBtnSelect my-3">
+                      Select the invoice integratons <input type="file" />
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label amazonLabel1"
+                      >Api Key<span class="red">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="374593"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="mb-5"></div>
+              <div class="text-end">
+                <button class="taxBtn mb-5">Forward</button>
               </div>
             </div>
           </section>
@@ -464,5 +502,6 @@
     <!-- JavaScript-->
     <script src="js/d3.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/js2/tax.js"></script>
   </body>
 </html>

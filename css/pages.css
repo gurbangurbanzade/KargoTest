@@ -960,10 +960,46 @@ button.accordion.is-open:after {
 .taxBtn:hover {
   background: #285be6;
 }
+.taxPageTwo {
+  display: none;
+  padding: 0px 40px;
+}
 
+.taxBtnSelect {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  background: #68d7fa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.taxBtnSelect input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
 @media (min-width: 768px) and (max-width: 1000px) {
   .taxBox {
     width: 70%;
+  }
+}
+@media (max-width: 425px) {
+  .taxPageTwo {
+    padding: 0px 10px;
   }
 }
 
