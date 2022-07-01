@@ -977,6 +977,7 @@ button.accordion.is-open:after {
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
+  margin-top: 10px;
 }
 .taxBtnSelect input[type="file"] {
   position: absolute;
