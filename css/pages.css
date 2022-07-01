@@ -1196,3 +1196,14 @@ button.accordion.is-open:after {
   }
 }
 /* End Locations */
+/* Cargo Companies */
+.cargoCompaniesCardItem {
+  border-radius: 50% !important;
+  width: 150px;
+  height: 150px;
+}
+.cargoCompanyBtn {
+  padding: 10px 30px !important;
+}
+
+/* End Cargo Companies */
